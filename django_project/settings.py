@@ -124,3 +124,4 @@ STATIC_URL = '/static/'
 
 #To redirect user to home-page when he/she log in
 LOGIN_REDIRECT_URL = 'blog-home'
+LOGIN_URL = 'login'
