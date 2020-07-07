@@ -3,13 +3,13 @@
 	<form method="POST">
 		{% csrf_token %}
 		<fieldset>
-			<legend>Join Now</legend>
+			<legend>Log In</legend>
 			{{form.as_p}}
 		</fieldset>
 		
-		<button type="submit">Submit</button>
+		<button type="Login">Log In</button>
 	</form>
-	<div>
-		<small>Already have an account? <a href="{% url 'login'%}">Log In</a></small>
-	</div>
+
+	<small>Don't have an account?? <a href="{% url 'register'%}">Sign Up</a></small>
+
 {%endblock content%}
